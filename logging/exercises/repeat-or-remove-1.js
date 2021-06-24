@@ -13,7 +13,7 @@ if (keepLetters) {
   const letters = 'abcdefghijklmnopqrstuvwxyz';
   for (const character of phrase) {
     if (letters.includes(character.toLowerCase())) {
-      newPhrase = newPhrase + character;
+      newPhrase = phrase + character;
     }
   }
 } else {

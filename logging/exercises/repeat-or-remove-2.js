@@ -22,7 +22,7 @@ if (!dontRemoveLetters) {
   while (index < phrase.length) {
     const letter = phrase[index];
     if (theAlphabet.includes(letter.toLowerCase())) {
-      newPhrase = newPhrase + letter;
+      newPhrase = phrase + letter;
     }
     index = index + 1;
   }

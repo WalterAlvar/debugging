@@ -12,16 +12,9 @@
     'hi' -> 'you entered "hi"'
     'JavaScript' -> 'you entered "JavaScript"'
 
-  --- experiments ---
+  the bug:
 
-  1. FAILING:
-    TRY:
-    PREDICT:
-    IT DID:
-    EXPLAIN:
-
-  --- lessons learned ---
-
+  your fix:
 
 */
 
@@ -37,3 +30,12 @@ while (true) {
 }
 
 alert(message);
+
+/* experiments
+
+  name:
+    predict:
+    actual:
+    why:
+
+*/

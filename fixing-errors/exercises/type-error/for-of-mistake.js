@@ -15,8 +15,8 @@
   the fix(es):
 */
 
-const maxNumber = 6;
+const max = 12;
 
-for (const i of maxNumber) {
-  console.log(i); // 0, 1, 2, 3, 4, 5
+for (const step of max) {
+  console.log(step);
 }

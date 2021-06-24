@@ -3,21 +3,21 @@
 /*
   environment:
 
-  name:
-  message:
+  name: SyntaxError
+  message: Illegal continue statement: no surrounding iteration statement
 
   callstack:
 
   life cycle:
 
-  the mistake:
+  the mistake:"continue" statement 
 
-  the fix(es):
+  the fix(es): remove "continue"
 */
 
 const userName = 'wingdoz';
 
 if (userName.length > 3) {
   console.log(userName);
-  continue;
+  ;
 }

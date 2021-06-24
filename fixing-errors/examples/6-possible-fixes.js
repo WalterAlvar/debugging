@@ -15,6 +15,7 @@
 
 */
 
+
 /*
   environment: Chrome
 
@@ -33,7 +34,6 @@
   the fix(es): this one is pretty simple, just add an opening curly brace
 */
 
-// for (let i = 0; i < 5; i++) // mistake
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) // mistake
   console.log(i);
 } // error

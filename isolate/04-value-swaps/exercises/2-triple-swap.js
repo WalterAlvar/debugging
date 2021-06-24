@@ -7,6 +7,11 @@ let c = 'y';
 let temp;
 
 // write some code, be sure to use temp!
+temp = a; //first assign to -temp-
+a = b;
+b = c;
+c = temp;
+temp = c;
 
 // fill in the _ to pass the assertions
 
@@ -19,8 +24,9 @@ console.assert(isTrue2, 'Test 2');
 const isTrue3 = c === 'z';
 console.assert(isTrue3, 'Test 3');
 
-const isTrue4 = temp === _;
+const isTrue4 = temp === 'z';
 console.assert(isTrue4, 'Test 4');
 
+//hello me: debugger says its ok
 
 console.log('-- end --');

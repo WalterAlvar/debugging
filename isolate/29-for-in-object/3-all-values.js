@@ -1,6 +1,6 @@
 'use strict';
 console.log('-- begin --');
-
+//Hello me. Pay attention to this great example
 // you can use a for ... in loop to get all the values from an object
 const menagerie = {
   swimming: 'mackerel',

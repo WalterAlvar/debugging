@@ -14,16 +14,9 @@
     'aeiou' -> '"aeiou" has at least one vowel'
     'hi' -> '"hi" has at least one vowel'
 
-  --- experiments ---
+  the bug:
 
-  1. FAILING:
-    TRY:
-    PREDICT:
-    IT DID:
-    EXPLAIN:
-
-  --- lessons learned ---
-
+  your fix:
 
 */
 
@@ -47,3 +40,12 @@ if (hasAVowel) {
 } else {
   alert('"' + characters + '" has no vowels');
 }
+
+/* experiments
+
+  name:
+    predict:
+    actual:
+    why:
+
+*/

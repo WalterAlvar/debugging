@@ -5,8 +5,8 @@ console.log('-- begin --');
 //  how many solutions can you find?
 // psst.  use JS Tutor & the debugger
 
-const array1 = _;
-const array2 = _;
+const array1 = {a: 'foo', b: 'fighters'};
+const array2 = {a: 'foo', b: 'fighters'};
 
 const test1 = array1 !== array2;
 console.assert(test1, 'Test 1');

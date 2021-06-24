@@ -7,6 +7,11 @@ let c = 'x';
 let temp;
 
 // write some code, be sure to use temp!
+temp = a;
+a = c;
+b = a;
+c = b;
+temp = 12; 
 
 // fill in the _ to pass the assertions
 

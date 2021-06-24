@@ -8,6 +8,10 @@ const obj2 = { a: 'x', b: 'y', c: 1 };
 let temp;
 
 // -- swap values (write this code) --
+function swap(obj1, a, obj2, c) {
+   [obj1[a]] = [obj2[c]];
+}
+swap(obj1, a, obj2, c);
 
 // -- assert values (this is correct) --
 console.assert(deepCompare(obj1, { a: 1, b: 2, c: 3 }), 'object 1');

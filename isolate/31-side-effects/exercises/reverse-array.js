@@ -2,7 +2,7 @@
 console.log('-- begin --');
 
 /**
- * Reverses an array without modifying the parameter.
+ * reverses an array without modifying the parameter
  *
  */
 const reverseArray = (arr = [], index = 0) => {};

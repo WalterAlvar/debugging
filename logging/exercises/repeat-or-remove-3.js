@@ -14,7 +14,7 @@ if (keepLetters) {
   for (let i = 0; i < phrase.length; i = i + 1) {
     const smallLetter = phrase[i].toLowerCase();
     if (smallLetters.includes(smallLetter)) {
-      newPhrase = newPhrase + smallLetter;
+      newPhrase = phrase + smallLetter;
     }
   }
 } else if (!keepLetters) {

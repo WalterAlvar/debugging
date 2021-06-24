@@ -10,11 +10,10 @@
 /* ===== declare functions ===== */
 
 /**
- * Sums all numbers in an array of numbers.
- *  An empty array should sum to 0.
- *  The function has no side-effects.
- *
- * @param {number[]} [_=_] - an array of numbers to add together
+ * sums all numbers in an array of numbers
+ *  an empty array should sum to 0
+ *  the function has no side-effects
+ * @param {number[]} manyNumbers - an array of numbers to add together
  * @returns {number} the sum of all the numbers in the array
  */
 const addNumbers = () => {};

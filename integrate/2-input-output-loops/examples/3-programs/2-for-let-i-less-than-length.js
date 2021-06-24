@@ -15,7 +15,7 @@ while (!userConfirmed) {
   console.log('userInput:', typeof userInput, userInput);
 
   if (userInput === '' || userInput === null) {
-    alert('nope, enter something');
+    alert('Why? please enter something');
     continue;
   }
 

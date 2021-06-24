@@ -13,16 +13,9 @@
     'javascript' -> 'javascript'
     'you canceled' -> 'you canceled'
 
-  --- experiments ---
+  the bug:
 
-  1. FAILING:
-    TRY:
-    PREDICT:
-    IT DID:
-    EXPLAIN:
-
-  --- lessons learned ---
-
+  your fix:
 
 */
 
@@ -42,3 +35,12 @@ while (prompting) {
 }
 
 alert(input);
+
+/* experiments
+
+  name:
+    predict:
+    actual:
+    why:
+
+*/

@@ -1,5 +1,3 @@
-'use strict';
-
 /* A suggested workflow for studying code in your DevTools' debugger
 
   Getting Ready
@@ -38,14 +36,10 @@
 
 */
 
-const input = prompt('enter "hello"');
+let hello = 'world';
+console.assert(hello === 'world', 'hello should be "world"');
 
-let didOrNot;
-if (input === 'hello') {
-  didOrNot = 'did';
-} else {
-  didOrNot = 'did not';
-}
-
-const message = `you ${didOrNot} enter "hello"`;
-alert(message);
+hello = 'good bye';
+console.assert(hello === 'good bye', 'hello should be "good bye"');
+//Hello me, its me again: in order to log "world" from a variable instead of directly printing a string
+console.log(hello);

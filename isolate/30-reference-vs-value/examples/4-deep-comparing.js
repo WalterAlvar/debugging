@@ -12,7 +12,7 @@ const expected = [4, 100, null, 'hi!'];
 
 const firstArr = [4, 100, null, 'hi!'];
 const secondArr = [4, 'null', 'good bye'];
-
+/*
 // you can do it manually, but that's a very bad idea
 //  way too many ways to make a mistake
 //  and it's not practical for large arrays
@@ -30,7 +30,7 @@ const manualCheckSecond =
   secondArr[3] === expected[3];
 console.assert(manualCheckSecond, 'Compare second (manual)');
 
-/* more commonly you will use a function that does this for you
+ more commonly you will use a function that does this for you
   the function below will compare each item in an array
     returns true if the arrays are deeply equal
     returns false if they are not

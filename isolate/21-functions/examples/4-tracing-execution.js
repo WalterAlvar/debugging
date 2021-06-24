@@ -20,9 +20,9 @@ const flipper = (param1, param2) => {
 //    parameters are assigned values using 'a' & 'b'
 const result1 = flipper('a', 'b');
 // 6: the value of result1 is compared to the expected value
-const test1 = result1 === 'ba';
+const isTrue1 = result1 === 'ba';
 // 7: the first assertion is evaluated
-console.assert(test1, 'Test 1');
+console.assert(isTrue1, 'Assertion 1');
 
 // 8: variable is declared & assigned
 const arg1 = 'x';
@@ -34,8 +34,9 @@ const arg2 = 'y';
 const result2 = flipper(arg1, arg2);
 
 // 13: the value of result2 is compared to the expected value
-const test2 = result2 === 'yx';
+const isTrue2 = result2 === 'yx';
 // 14: the second assertion is evaluated
-console.assert(test2, 'Test 2');
+console.assert(isTrue2, 'Assertion 2');
+
 
 console.log('-- end --');

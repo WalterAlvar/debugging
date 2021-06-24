@@ -2,23 +2,29 @@
 
 
 /*
-  environment:
+  environment: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: Undefined label 'x'
 
-  callstack:
+  callstack: at <anonymous>:2:6
+    at HTMLIFrameElement.evaller.onload (study-with.js:56)
+    at Object.console (study-with.js:58)
+    at JavaScriptFE.studyWith (javascript-class.js:450)
+    at HTMLButtonElement.<anonymous> (javascript-class.js:277)
 
   life cycle:
 
-  the mistake:
+  the mistake: There is a "break" statement instead of "return"
 
-  the fix(es):
+  the fix(es): interchange it
 */
 
 
 const add = (x = 0, y = 0) => {
-  break x + y;
+  return x + y;
 };
 
 const seven = add(3, 4);
+
+console.log(seven);

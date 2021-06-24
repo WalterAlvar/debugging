@@ -3,10 +3,9 @@ console.log('-- begin --');
 
 /**
  * _
- *
- * @_ {_} [_=_] - _
- * @_ {_} [_=_] - _
- * @_ {_} _
+ * @_ {_} _ - _
+ * @_ {_} _ - _
+ * @_ {_} _ - _
  */
 const longOrShort = (text = '', cutoff = 0) => {
   if (text.length < cutoff) {
@@ -40,5 +39,6 @@ console.assert(_5_actual === _5_expect, 'Test 5: second default parameter');
 const _6_expect = 'long';
 const _6_actual = longOrShort();
 console.assert(_6_actual === _6_expect, 'Test 6: both default parameters');
+
 
 console.log('-- end --');

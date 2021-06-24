@@ -9,14 +9,14 @@ console.log('-- begin --');
 //  this is a "creation phase" error, meaning the code will not even execute!
 // uncomment the next two lines of code to get the error
 
-// const constantVariable1;
-// console.log(constantVariable1);
+ const constantVariable1 = 1;
+ console.log(constantVariable1);
 
 // const variables also cannot be reassigned
 // this will throw an error
 //  "Assignment to constant variable"
 const constantVariable2 = 'constant value';
-constantVariable2 = 'new value';
+const constantVariable3 = 'new value';
 console.log(constantVariable2);
 
 // all of these things are possible with let

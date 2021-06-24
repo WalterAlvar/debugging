@@ -12,16 +12,9 @@
     'hello' -> 'olleh|hello'
     ':)' -> '):|:)'
 
-  --- experiments ---
+  the bug: (describe what is wrong with the program)
 
-  1. FAILING:
-    TRY:
-    PREDICT:
-    IT DID:
-    EXPLAIN:
-
-  --- lessons learned ---
-
+  your fix: (describe how you fixed it)
 
 */
 
@@ -36,3 +29,12 @@ for (const character of text) {
 }
 
 alert(mirrored);
+
+/* experiments
+
+  name:
+    predict:
+    actual:
+    why:
+
+*/

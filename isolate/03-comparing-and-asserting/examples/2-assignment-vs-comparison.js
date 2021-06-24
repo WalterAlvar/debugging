@@ -6,27 +6,27 @@
 // click on "open in JS Tutor" for best results
 
 // = assigns a value to variable, updating memory
-let variable = 'value 1';
-console.log(typeof variable, variable);
+let variableEx = 'value 1';
+console.log(typeof variableEx, variableEx);
 
 // === compares two values without changing memory
-const firstComparison = variable === 'value 2';
-console.log(typeof variable, variable);
+const firstComparison = variableEx === 'value 2';
+console.log(typeof variableEX, variableEx);
 console.log(typeof firstComparison, firstComparison);
 
 // === compares the CURRENT value assigned to a variable
 // changing a variable with = will change the result of the comparison
-variable = 'value 2';
-const secondComparison = variable === 'value 2';
+variableEx = 'value 2';
+const secondComparison = variableEx === 'value 2';
 console.log(typeof secondComparison, secondComparison);
 
 // === comparisons can be written either way
-const thirdComparison = 'value 2' === variable;
+const thirdComparison = 'value 2' === variableEx;
 console.log(typeof thirdComparison, thirdComparison);
 
-// = assignments cannot be written either way
+/*/ = assignments cannot be written either way
 //  Invalid left-hand side in assignment
-'value 2' = variable; // uncomment this line for an error
+'value 2' = variableEx; // uncomment this line for an error */
 
 
 

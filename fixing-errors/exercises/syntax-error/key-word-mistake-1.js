@@ -14,7 +14,8 @@
 
   the fix(es):
 */
+const i = 0;
+if { ( i < 5, i++) 
 
-if (let i = 0; i < 5; i++) {
   console.log(i);
 }

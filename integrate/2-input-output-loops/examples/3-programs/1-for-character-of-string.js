@@ -13,7 +13,7 @@ let userConfirmed = false;
 while (!userConfirmed) {
 
   userInput = prompt('enter a word to spell:');
-  console.log('userInput:', typeof userInput, userInput);
+  console.log('UserInput:', typeof userInput, userInput);
 
   if (userInput === '' || userInput === null) {
     alert('nope, enter something');

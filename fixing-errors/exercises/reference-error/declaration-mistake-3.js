@@ -15,17 +15,17 @@
   the fix(es):
 */
 
-const userName = 'chiobin';
+let userName = 'chiobin';
 console.log('userName:', typeof userName, userName);
 
 if (userName.length > 3) {
   isValidUserName = true;
 }
 
-let isValidUserName;
+
 
 if (userName.length <= 3) {
   isValidUserName = false;
 }
-
+let isValidUserName = true ;
 console.log('isValidUserName:', typeof isValidUserName, isValidUserName);

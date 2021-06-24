@@ -5,7 +5,7 @@ console.log('-- begin --');
 //  there is no new array created in memory
 //  Psst. Use JS tutor for this example
 
-const returnAnEntry = (array = [], index = 0) => {
+const returnAnEntry = (array, index) => {
   return array[index];
 };
 
@@ -24,5 +24,6 @@ furniture.push('dresser');
 
 const thirdEntryAfterPush = returnAnEntry(furniture, 3);
 console.assert(thirdEntryAfterPush === 'dresser', 'Test 4');
+
 
 console.log('-- end --');

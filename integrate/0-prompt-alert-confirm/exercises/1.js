@@ -2,7 +2,7 @@
 
 // fill in the blank to pass the assertion
 
-const interactionValue = _('asdf');
+const interactionValue = (true);
 
 console.log('interactionValue:', typeof interactionValue, interactionValue);
 

@@ -15,16 +15,15 @@ const instructions =
 alert(instructions);
 
 let input1 = null;
-let input2 = null;
-let input3 = null;
-
 while (input1 !== '' && input1 !== null) {
   input1 = prompt('enter your first secret phrase:');
 }
-while (input1 !== '' && input1 !== null) {
+let input2 = null;
+while (input2 !== '' && input1 !== null) {
   input2 = prompt('enter your second secret phrase:');
 }
-while (input1 !== '' && input1 !== null) {
+let input3 = null;
+while (input3 !== '' && input1 !== null) {
   input3 = prompt('enter your third secret phrase:');
 }
 

@@ -14,16 +14,9 @@
     '!yo' -> '"!yo"" is excited'
     '!yo!' -> '"!yo!" is excited'
 
-  --- experiments ---
+  the bug:
 
-  1. FAILING:
-    TRY:
-    PREDICT:
-    IT DID:
-    EXPLAIN:
-
-  --- lessons learned ---
-
+  your fix:
 
 */
 
@@ -47,3 +40,13 @@ if (isExcited) {
 } else {
   alert('"' + input + '" is not excited');
 }
+
+/* experiments
+
+  name:
+    change:
+    predict:
+    actual:
+    why:
+
+*/

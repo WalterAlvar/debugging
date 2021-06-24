@@ -32,6 +32,7 @@ console.log(typeof isFalse3, isFalse3);
 
 // NaN is a strange and special value in JavaScript
 //  it does not equal itself!
+// Hello me. Indeed this is a phenomenal behavior
 console.log('-- NaN is weird --');
 
 const huh = NaN === NaN;

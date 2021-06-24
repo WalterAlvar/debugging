@@ -26,7 +26,7 @@ while (!userConfirmedQuery) {
   userConfirmedQuery = confirm('is this correct: "' + query + '"');
 }
 
-let phraseIncludesQuery;
+let phraseIncludesQuery = false;
 if (caseSensitive) {
   phraseIncludesQuery = phrase.includes(query);
 } else {

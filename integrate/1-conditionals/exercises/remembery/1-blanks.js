@@ -33,7 +33,7 @@ alert('all saved! get ready to remember');
 
 // generate a random number: 1, 2 or 3
 const randomDecimal = Math.random();
-const decimalTimes3 = randomDecimal * _;
+const decimalTimes3 = randomDecimal * 3;
 const randomFrom1To3 = Math.ceil(decimalTimes3);
 
 console.log('randomFrom1To3:', typeof randomFrom1To3, randomFrom1To3);
